@@ -1,5 +1,6 @@
 ﻿CREATE TABLE [dbo].[STUDENT_MASTER] (
     [ID]   INT        NULL,
-    [NAME] NCHAR (10) NULL
+    [NAME] NCHAR (10) NULL,
+    ADDRESS NCHAR (100) NULL
 );
 
