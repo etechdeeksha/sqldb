@@ -1,7 +1,10 @@
 ﻿CREATE TABLE [dbo].[STUDENT_MASTER] (
-    [ID]   INT        NULL,
-    [NAME] NCHAR (10) NULL,
-    ADDRESS NCHAR (100) NULL,
-    DOB DATE
+    [ID]      INT         NOT NULL,
+    [NAME]    NCHAR (10)  NULL,
+    [ADDRESS] NCHAR (100) NULL,
+    [DOB]     DATE        NULL,
+    CONSTRAINT [ADB_CONT] PRIMARY KEY CLUSTERED ([ID] ASC)
 );
+
+
 
